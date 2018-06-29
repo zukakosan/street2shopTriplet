@@ -1,2 +1,5 @@
-# DeepFashionTriplet
-Challenge the customer to shop task with tripletNet
+# street2shop
+## Task
+Clothes image retrieval from consumer(street) image to shop(online) image.
+## Method 
+TripletNet
