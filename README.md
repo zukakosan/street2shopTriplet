@@ -14,3 +14,9 @@ These notebooks are implemented by python3.5 or 3.6, keras 2.2.1
 - negative = shop image not consistent to anchor
 ####  example
 ![](./readme_imgs/tripletSample.png)
+
+## Network
+#### whole structure
+![](./readme_imgs/tripletNet.png)
+#### embNet structure
+![](./readme_imgs/embNet.png)
