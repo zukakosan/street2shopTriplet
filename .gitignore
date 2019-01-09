@@ -6,4 +6,5 @@ img/
 np_datasets/
 *.npy
 T_Shirt_all/
+model/
 T_Shirt_all2/
