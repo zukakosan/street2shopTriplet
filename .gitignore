@@ -1,4 +1,5 @@
 dataset/
+__pycache__
 crop_img/
 street2shop/
 street2shop.zip
