@@ -6,4 +6,6 @@ T_Shirt_all/
 model/
 *.zip
 *tar.gz
+pickle/
+result_img/
 
