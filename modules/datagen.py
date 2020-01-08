@@ -8,20 +8,17 @@ from tqdm import tqdm
 # @jit
 def get_triplets(ids,BASE_PATH):
     triplets=[]
-    # idの選択の仕方をランダムにしたらいいのか？
     for id_ in ids:
         files = sorted([BASE_PATH+id_+'/'+x for x in os.listdir(BASE_PATH+id_)])
         con = sorted([x for x in files if 'comsumer' in x])
         shop = sorted([x for x in files if 'shop' in x ])
         combs = list(itertools.product(tuple(con),tuple(shop)))
-        
         for comb in combs:
             comb = list(comb)
             neg_id = random.choice([x for x in ids if x != id_])
             neg_file = random.choice([BASE_PATH+neg_id+'/'+x for x in os.listdir(BASE_PATH+neg_id) if 'shop' in x])
             comb.append(neg_file)
             triplets.append(comb)
-    
     return triplets
 
 # @jit
