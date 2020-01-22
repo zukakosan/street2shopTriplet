@@ -17,6 +17,19 @@ I used `DeepFashion` Dataset to train and test my model.
 ###  data example
 ![](./readme_imgs/tripletSample.png)
 
+### Retrieval Sample
+T_Shirt
+![](./readme_imgs/16099.png)
+
+Dress
+![](./readme_imgs/647.png)
+
+Coat
+![](./readme_imgs/12901.png)
+
+Pants
+![](./readme_imgs/19332.png)
+
 ## Implementation
 These notebooks are implemented by python3.5 or 3.6, keras 2.2.1. Sorry, I use Japanese for comment in my notebook, haha.
 Please execute this command for building my environment.

@@ -9,3 +9,4 @@ model/
 pickle/
 result_img/
 model_LE/
+img_retrieval/
