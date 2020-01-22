@@ -28,7 +28,7 @@ Coat
 ![](./readme_imgs/12901.png)
 
 Pants
-![](./readme_imgs/19332.png)
+![](./readme_imgs/19322.png)
 
 ## Implementation
 These notebooks are implemented by python3.5 or 3.6, keras 2.2.1. Sorry, I use Japanese for comment in my notebook, haha.
